@@ -23,7 +23,7 @@ class UserTest(unittest.TestCase):
         Performing first test method to check if user class is initialized correctly
         '''
         self.assertEqual(self.newuser.username,"Cyprian")
-        self.assertEqual(self.newuser.password, "IsItMe")
+        self.assertEqual(self.newuser.password, "IsItMe?")
         
     def test_save_user(self):
         '''

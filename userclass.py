@@ -19,10 +19,6 @@ class User:
         #Saving the user object to the list we defined above
         User.userlist.append(self)
 
-
-
-
-
 # Credential Class that will be used to create account objects
 class Credentials:
 

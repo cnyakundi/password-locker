@@ -161,4 +161,15 @@ def main():
                             print("-" * 10)
                             print("\nInvalid short code. Please take your time to read them, and try again\n")
                 else:
-                    
+                    print("-" * 10)
+                    print("\nIncorrect password. Try again")
+    elif option == '2':
+        print("-" * 10)
+        print(f"\nHave a lovely day, {account_owner}")
+    else:
+        print("-" * 10)
+        print("\nInvalid option. Please try again later")
+
+
+if __name__ == "__main__":
+    main()

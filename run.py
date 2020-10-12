@@ -1,9 +1,10 @@
 from userclass import User
 from userclass import Credentials
 
+
 def create_user(account_owner, account_key):
     
-    #function to create a new user
+    # function to create a new user
 
     new_user = User(account_owner, account_key)
     return new_user
@@ -11,14 +12,14 @@ def create_user(account_owner, account_key):
 
 def save_user(data):
 
-    #function to save a new user
+    # function to save a new user
 
     data.save_user()
 
 
 def create_account(account, u_name, passwd):
     
-    #function to create a new account
+    # function to create a new account
     
     new_account = Credentials(account, u_name, passwd)
     return new_account
@@ -26,28 +27,28 @@ def create_account(account, u_name, passwd):
 
 def save_accounts(credentials):
     
-    #function to save the new account
+    # function to save the new account
     
     credentials.save_account()
 
 
 def delete_accounts(credentials):
     
-    #function to delete an account
+    # function to delete an account
     
     credentials.delete_account()
 
 
 def search_accounts(search):
     
-    #function to find an account by account name
+    # function to find an account by account name
     
     return Credentials.search_accounts(search)
 
 
 def generate_password():
 
-    #function to generate a password
+    # function to generate a password
     
     random_password = Credentials.password_generate()
     return random_password
@@ -55,10 +56,9 @@ def generate_password():
 
 def display_account():
     
-    #function to display all accounts saved
+    # function to display all accounts saved
 
     return Credentials.display_accounts()
-
 
 
 def main():

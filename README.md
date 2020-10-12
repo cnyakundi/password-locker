@@ -2,7 +2,7 @@
 
 ## By Cyprian Nyakundi
 
-###### Description
+##### Description
 
 This is a python application that allows a user to create user accounts and save credentials
 
